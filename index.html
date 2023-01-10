@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="app.css" />
+    <script src="script.js" defer></script>
+    <title>http</title>
+  </head>
+  <body>
+    <template>
+      <li class="post-item">
+        <h2></h2>
+        <p></p>
+        <button>DELETE</button>
+      </li>
+    </template>
+    <section id="new-post">
+      <form>
+        <div class="form-control">
+          <label for="tittle">Tittle</label>
+          <input type="text" id="title" aria-label="title" />
+        </div>
+        <div class="form-control">
+          <label for="content">Content</label>
+          <textarea id="content" rows="3"></textarea>
+        </div>
+        <button type="submit">ADD</button>
+      </form>
+    </section>
+    <section id="available-posts">
+      <button>FETCH POSTS</button>
+      <ul class="posts"></ul>
+    </section>
+  </body>
+</html>

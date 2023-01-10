@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+button {
+  background: #0c3c41;
+  border: 1px solid #0c3c41;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover,
+button:active {
+  background: #4f9e8c;
+  border: #4f9e8c;
+}
+
+label,
+input,
+textarea {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea {
+  border: 1px solid #4f9e8c;
+  font: inherit;
+  padding: 0.15rem 0.25rem;
+  width: 100%;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #0c3c41;
+  outline: none;
+}
+
+section {
+  border: 1px solid #4f9e8c;
+  margin: 2rem auto;
+  max-width: 90%;
+  padding: 1.5rem;
+  width: 40rem;
+}
+
+.form-control,
+.post-item h2,
+.post-item p {
+  margin: 0.5rem 0;
+}
+
+.posts {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.post-item {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.26);
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+.post-item h2 {
+  color: #0c3c41;
+  font-size: 1.5rem;
+}
+
+.post-item button {
+  background: #c53a3f;
+  border-color: #c53a3f;
+}
+
+.post-item button:hover,
+.post-item button:active {
+  background: #f28071;
+  border-color: #f28071;
+}
